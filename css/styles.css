@@ -83,6 +83,9 @@ button {
   margin-right: 76px;
 }
 
+.header-top{
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-nav {
   display: flex;
@@ -92,12 +95,8 @@ button {
 .header-nav-list{
   display: flex;
   gap: 40px;
+  padding: 24px;
 }
-
-.header-nav-item{
-  padding: 24px 0;
-}
-
 
 
 
