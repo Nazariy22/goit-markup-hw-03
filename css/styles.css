@@ -82,14 +82,12 @@ button {
   margin-left: 156px;
 }
 
-
 .header-nav-list {
   display: flex;
   align-items: center;
 }
 
-
-.header-link{
+.header-link {
   display: block;
 }
 
@@ -104,7 +102,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--link-cl);
-
 }
 
 .header-link {
@@ -141,7 +138,6 @@ button {
   display: flex;
   align-items: center;
 }
-
 
 /**
   |============================
