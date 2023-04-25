@@ -98,6 +98,9 @@ button {
   padding: 24px 0
 }
 
+.header-nav-item{
+  padding: 24px 0
+}
 
 
 
@@ -215,12 +218,28 @@ button {
   | About
   |============================
 */
+
+.about-section{
+  padding: 120px 0; 
+}
+
+.about-list{
+  display: flex;
+  gap: 24px;
+}
+
+.about-list-item{
+  width: calc((100% - 72px) / 4);
+}
+
 .about-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--link-cl);
+  margin-bottom: 8px;
+  
 }
 .about-desc {
   line-height: 1.5;
@@ -232,13 +251,28 @@ button {
   |============================
 */
 
+.portfolio-section{
+  padding-bottom: 120px;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--link-cl);
+  margin-bottom: 72px;
 }
+
+.portfolio-list{
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-list-item{
+  width: calc((100% - 48px) / 3);
+}
+
 
 /**
   |============================
