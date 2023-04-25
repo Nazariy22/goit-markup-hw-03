@@ -26,12 +26,41 @@ body {
   background-color: var(--background-cl);
 }
 /* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /**
@@ -50,6 +79,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-cl);
+  margin-left: 156px;
+}
+
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-link{
+  display: block;
 }
 
 .web-logo {
@@ -63,6 +104,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--link-cl);
+
 }
 
 .header-link {
@@ -94,6 +136,12 @@ body {
 .header-mail:focus {
   color: var(--activ-cl);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 
 /**
   |============================
@@ -233,15 +281,15 @@ body {
   background-color: var(--activ-cl);
 }
 
-.text-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--link-cl);
+.text-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--link-cl);
 }
 
-.text{
-line-height: 1.5;
-color:var(--main-tx-cl)
+.text {
+  line-height: 1.5;
+  color: var(--main-tx-cl);
 }
