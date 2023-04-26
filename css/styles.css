@@ -11,7 +11,7 @@
   --activ-cl: #404bbf;
   --hero-cl: #ffffff;
   --logo-cl: #4d5ae5;
-  --btn-cl:#e7e9fc;
+  --btn-cl: #e7e9fc;
 }
 /**
   |============================
@@ -75,15 +75,16 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: inline-block;
+  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-cl);
-  margin-bottom: 16px;
+  margin-left: 156px;
+  margin-right: 76px;
 }
 
-.header-top{
+.header-top {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -92,15 +93,10 @@ button {
   align-items: center;
 }
 
-
-
-.header-nav-list{
+.header-nav-list {
   display: flex;
   gap: 40px;
 }
-
-
-
 
 .web-logo {
   font-family: "Raleway";
@@ -123,7 +119,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-cl);
-  padding: 24px 0 ;
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -138,11 +134,10 @@ button {
   margin-left: auto;
 }
 
-.header-address-list{
+.header-address-list {
   display: flex;
   gap: 40px;
-} 
-
+}
 
 .header-address > .header-link {
   color: var(--address-cl);
@@ -163,15 +158,14 @@ button {
   | Hero
   |============================
 */
- .hero-container{
+.hero-container {
   display: flex;
   align-items: center;
- }
-
+}
 
 .hero-section {
   background-color: var(--link-cl);
-  padding: 188px 0; 
+  padding: 188px 0;
   display: flex;
   align-items: center;
 }
@@ -182,7 +176,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--hero-cl);
   max-width: 496px;
-
 }
 
 .hero-btn {
@@ -218,16 +211,16 @@ button {
   |============================
 */
 
-.about-section{
-  padding: 120px 0; 
+.about-section {
+  padding: 120px 0;
 }
 
-.about-list{
+.about-list {
   display: flex;
   gap: 24px;
 }
 
-.about-list-item{
+.about-list-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -238,7 +231,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--link-cl);
   margin-bottom: 8px;
-  
 }
 .about-desc {
   line-height: 1.5;
@@ -250,7 +242,7 @@ button {
   |============================
 */
 
-.portfolio-section{
+.portfolio-section {
   padding-bottom: 120px;
 }
 
@@ -263,15 +255,14 @@ button {
   margin-bottom: 72px;
 }
 
-.portfolio-list{
+.portfolio-list {
   display: flex;
   gap: 24px;
 }
 
-.portfolio-list-item{
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
-
 
 /**
   |============================
@@ -282,7 +273,6 @@ button {
 .team {
   background: #f4f4fd;
   padding: 120px 0;
-
 }
 .team-title {
   font-size: 36px;
@@ -300,7 +290,7 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list{
+.team-list {
   display: flex;
   gap: 24px;
 }
@@ -319,10 +309,9 @@ button {
   text-align: center;
 }
 
-.card-content{
+.card-content {
   padding: 32px 16px;
 }
-
 
 /**
   |============================
@@ -337,11 +326,20 @@ button {
 
 .footer-logo {
   color: var(--web-logo-light);
-
 }
 
-
-
+.flogo-link{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-cl);
+    margin-bottom: 16px;
+}
 
 
 /**
@@ -350,18 +348,17 @@ button {
   |============================
 */
 
-.filter-section{
+.filter-section {
   padding: 96px 0 120px;
   display: block;
 }
 
-.button-list{
+.button-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
-
 
 .filter-btn {
   font-family: var(--primary-font);
@@ -398,40 +395,15 @@ button {
   color: var(--main-tx-cl);
 }
 
-
-.list-portfolio{
-  display: flex
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ;
+.list-portfolio {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-} 
+}
 
-
-.card-content{
+.card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
