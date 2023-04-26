@@ -75,13 +75,12 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
+  display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-cl);
-  margin-left: 156px;
-  margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .header-top{
@@ -401,7 +400,29 @@ button {
 
 
 .list-portfolio{
-  display: flex;
+  display: flex
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
