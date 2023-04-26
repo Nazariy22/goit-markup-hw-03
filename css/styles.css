@@ -334,6 +334,7 @@ button {
   color: var(--web-logo-light);
   background-color: var(--link-cl);
   padding: 100px 0;
+  display: flex;
 }
 
 .footer-logo {
@@ -390,6 +391,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--link-cl);
+  margin-bottom: 8px;
 }
 
 .text {
@@ -398,7 +400,7 @@ button {
 }
 
 
-.portfolio-list{
+.list-portfolio{
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -409,5 +411,5 @@ button {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px
+
 }
