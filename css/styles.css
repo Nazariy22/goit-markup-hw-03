@@ -334,7 +334,6 @@ button {
   color: var(--web-logo-light);
   background-color: var(--link-cl);
   padding: 100px 0;
-  display: flex;
 }
 
 .footer-logo {
